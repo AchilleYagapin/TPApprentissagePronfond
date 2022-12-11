@@ -19,4 +19,15 @@ Réalisez réseau de neurones seq2seq comprenant un encodeur et un décodeur sé
 Mesurez la performance de ce nouveau réseau sur le nouveau jeu de test et sur le précédent.
 
 ### Réalisation d'un seqa2seq avec des couches linéaires
-Expliquez comment réaliser un traducteur de séquence seq2seq 
+Expliquez comment réaliser un traducteur de séquence seq2seq uniquement avec des couches linéaires (pas de RNN). 
+Mesurez sa performance sur les deux bases de séquences précédement étudiées.
+Commentez les résultats
+
+###  Mesure de la performance sur un jeu de données en core plus difficile
+Les fichiers 'train_set3.pt' et 'test_set3.pt' contiennent un jeu de données encore plus difficiles que les deux précédent. 
+Affichez les chaines de caractères codées et décodées et essayer de comprendre comment le codage est réalisez.
+Mesurer la performance des 2 RNN précédents et du réseau entièrement basé sur des couches linéaires sur ce nouveau jeu de données.  
+
+### Réseau à base de transformer
+Vous construirez désormais un traducteur de séquence basé sur un transformer.
+Mesurez sa performance sur le dernier jeu de données et sur les deux précédents.
